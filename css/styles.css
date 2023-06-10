@@ -4,42 +4,39 @@ ul {
 }
 
 .webstudio {
-    width: 145px;
-    Height: 31px;
-    Top: 1688px;
-    Left: 215px;
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
-    line-height: 31px;
-    letter-spacing: 0.03em;
     color: #2196F3;
 }
 
 .link:hover {
-    cursor: pointer;
-    color: #2196F3;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
 }
 
 .current {
-      color: red;
+    color: #2196F3;
+}
+
+a{
+    color: #212121;
 }
 
 .menu {
     display: flex;
-    direction:row-reverse;
-    background-color #21f34f;
     gap: 50px;
     justify-content: space-around;
     align-items: center;
 }
 
+.parrafo{
+    padding: 0;
+}
+
 .info {
     color: #757575;
-    font-size: 14px;
     font-weight: 500;
     line-height: 16px;
 }
@@ -89,19 +86,25 @@ header a {
     color: #ffffff;
     background-color: #2196F3;
     padding: 10px 20px;
+    border: 2px solid #2196F3;
+    border-radius: 3px;
 }
 
 .btn-estudio{
     width: 300px;
-        height: 30px;
-        font-weight: 700;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
+    height: 30px;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
-.button-portafolio:hover{
+.button-portafolio:hover,
+.button-portafolio:focus,
+.button-portafolio:active {
     cursor: pointer;
+    border: 2px solid #2196F3;
+    border-radius:3px;
     color: #ffffff;
     background-color: #2196F3;    
 }
@@ -109,7 +112,10 @@ header a {
 .css-btn .button-portafolio{
     margin: 3px;
     padding: 8px;
-    width: 100px;  
+}
+
+.separador h3, p{
+    padding-left: 20px;
 }
 
 body{
@@ -121,6 +127,7 @@ body{
 .pond {
     display: flex;
     justify-content: center;
+    padding-top: 94px;
 }
 
 .divisor {
