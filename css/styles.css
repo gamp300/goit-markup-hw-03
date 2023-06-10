@@ -24,6 +24,10 @@ ul {
     line-height: 16px;
 }
 
+.current {
+      color: red;
+}
+
 .menu {
     display: flex;
     direction:row-reverse;
@@ -47,16 +51,11 @@ header a {
     line-height: 16px;
     font-style: normal;
 }
-    /* font-size:;
-    font-weight:;
-    line-height:;  */
 
 .container {
     width: 1200px;
-    margin: 0 auto;
     padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .card{
@@ -77,12 +76,12 @@ header a {
 }
 
 .item h2 {
-  margin-top: 0;
-  font-size: 20px;
+    margin-top: 0;
+    font-size: 20px;
 }
 
 .item p {
-  margin: 0;
+    margin: 0;
 }
 
 .btn {
@@ -226,10 +225,9 @@ h3 .target{
 .title {
     color: rgb(255, 255, 255);
     background: #30303a;
-    width: 100%;
-    Height: 300px;
     text-align-last: center;
     padding: 100px;
+    margin-top: 8px;
 }
 
 .title2 {
